@@ -28,4 +28,4 @@ console.log(youngerUsers)
 const totalUserAge = users.reduce((sum, user)=> {
     return sum + user.age;
 }, 0)
-console.log(totalUserAge)
+console.log(totalUserAge/users.length)
